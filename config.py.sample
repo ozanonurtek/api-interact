@@ -1,0 +1,12 @@
+-# db configurations
+-SQLALCHEMY_DATABASE_URI = "postgresql://<db-user>:<password>@<remote-ip>:<remote-port>/<db-name>"
+-SQLALCHEMY_ECHO = True
+-SQLALCHEMY_TRACK_MODIFICATIONS = True
+-DATABASE_URL= SQLALCHEMY_DATABASE_URI
+-
+-# general app configurations
+-SECRET_KEY = "Mevlam dert versin."
+-DEBUG = True
+-PORT = 8080
+-HOST = "0.0.0.0"
+-HASH_KEY = "eksiklikkendiozumde"
